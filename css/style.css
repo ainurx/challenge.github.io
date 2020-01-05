@@ -8,6 +8,7 @@ h3, p{
 
 .pp{
   margin-top: 150px;
+  width: 25%;
 }
 
 .btn-hire{
@@ -88,4 +89,10 @@ ul li img{
   -ms-transform: translate(-50, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}
+
+@media only screen and (max-width: 400px){
+  .pp{
+    width: 70%;
+  }
 }
