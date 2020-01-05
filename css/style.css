@@ -14,7 +14,10 @@ h3, p{
 .btn-hire{
   margin: 36px;
   padding: 17px;
-  color: white; border-radius: 31.5px;font-size: 24px;background: #3168EF;
+  color: white; 
+  border-radius: 31.5px;
+  font-size: 24px;
+  background: #3168EF;
 }
 
 .content{
