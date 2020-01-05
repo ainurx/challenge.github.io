@@ -1,0 +1,91 @@
+body{
+  background-color: #f5f5f8;
+}
+
+h3, p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pp{
+  margin-top: 150px;
+}
+
+.btn-hire{
+  margin: 36px;
+  padding: 17px;
+  color: white; border-radius: 31.5px;font-size: 24px;background: #3168EF;
+}
+
+.content{
+  display: block;
+  
+  width: 100%;
+  height: auto;
+  margin-bottom: 36px;
+  
+}
+
+button{
+  position: absolute;
+  width: 158px;
+  height: 63px;
+  left: 880px;
+  top: 696px;
+
+  background: #3168EF;
+  border-radius: 31.5px;
+}
+
+ul{
+  margin-left: -30px;
+}
+
+ul li{
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
+ul li img{
+  border-radius: 30px;
+  margin-bottom: 36px;
+}
+
+
+
+.wrap{
+  position: relative;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  height: 100%;
+  width: 100%;
+
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3168EF;
+}
+
+.wrap:hover .overlay{
+  opacity: 1;
+}
+
+.overlay p{
+  color: white;
+  font-size: 12px;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
