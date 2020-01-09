@@ -7,9 +7,19 @@ h3, p{
 }
 
 .pp{
-  margin-top: 150px;
-  width: 25%;
+  margin-top: 124px;
+  width: 96px;
 }
+
+.up{
+  margin-top: 152px;
+}
+
+.bottom{
+  margin-bottom: 80px;
+}
+
+
 
 .btn-hire{
   margin: 36px;
@@ -23,7 +33,7 @@ h3, p{
 .content{
   display: block;
   
-  width: 100%;
+  width: 360px;
   height: auto;
   margin-bottom: 36px;
   
@@ -97,5 +107,9 @@ ul li img{
 @media only screen and (max-width: 400px){
   .pp{
     width: 70%;
+  }
+
+  .content{
+    width: 100%;
   }
 }
