@@ -1,4 +1,4 @@
-document.getElementById("nama").innerHTML = "Mursyiduchi";
+document.getElementById("nama").innerHTML = "Mursyiduchy";
 
 function testing(){
   
